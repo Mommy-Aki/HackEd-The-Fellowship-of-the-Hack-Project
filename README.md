@@ -1,2 +1,7 @@
-# HackEd-The-fellowship-of-the-Hack-Project
-The Best Team [Team 4] Has got this
+# <Project Name>
+# Description
+add description here
+# Requirements
+requirements for the system [if any are required]
+# Formatting
+ho commits should format their project
