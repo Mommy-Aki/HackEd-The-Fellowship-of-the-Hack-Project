@@ -1,5 +1,5 @@
 .page {
-    height: 1000px;
+  height: 1000px;
 }
 
 body {
@@ -29,26 +29,26 @@ body {
 }
 
 .title-wrapper {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .logo-wrapper {
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-    background-image: url(images/logo.png);
-    display: flex;
-    left: 95%;
-    position: relative;
-    z-index: 10;
-    height: 55px;
-    width: 55px;
+  background-image: url(images/logo.png);
+  display: flex;
+  left: 95%;
+  position: relative;
+  z-index: 10;
+  height: 55px;
+  width: 55px;
 }
 
 .menu {
@@ -70,10 +70,10 @@ body {
 }
 
 .intro-wrapper {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .columns {
@@ -116,7 +116,7 @@ body {
 }
 
 .a:btn {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -125,29 +125,63 @@ body {
 }
 
 .about {
+  box-sizing: border-box;
+  width: 100%;
   background-color: #064789;
   color: white;
-  padding: 50px 20px;
+  padding: 35px 30px;
   margin-top: 80px;
   text-align: center;
-  position: inherit;
-  bottom: 0;
-  height: 140px;
-  width: 100%;
 }
 
 .paragraph-wrapper {
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    margin-top: 50px;        
-    padding: 0 20px;           
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 20px;
 }
 
 .paragraph {
-    max-width: 800px;      
-    text-align: center;       
-    font-size: 18px;
-    line-height: 1.7;
-    color: #064789;
+  max-width: 800px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #064789;
+}
+
+.has-border {
+  border-color: #064789 !important;
+  border-width: .3rem !important;
+  border-style: solid !important;
+}
+
+.block {
+  display: block;
+}
+
+.MiniNav {
+  --primary: #064789;
+  --secondary: #427AA1;
+  --accent: EBF2FA;
+  align-content: center;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-color: var(--primary);
+  border-width: 1rem;
+  border-style: solid;
+  max-width: 25rem;
+  min-width: 10rem;
+  max-height: 4rem;
+
+  button {
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-width: 6rem;
+    max-width: 7rem;
+  }
 }
