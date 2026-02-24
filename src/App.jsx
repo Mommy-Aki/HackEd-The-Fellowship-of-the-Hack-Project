@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home.jsx";
-// import TechSkills from "./TechSkills.jsx";
-// import SoftSkills from "./SoftSkills";
+import BasicSkills from "./BasicSkills.jsx";
+import DailySkills from "./DailySkills";
 import "./App.css";
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/TechSkills" element={<TechSkills />} /> */}
-        {/* <Route path="/SoftSkills" element={<SoftSkills />} /> */}
+        <Route path="/BasicSkills" element={<BasicSkills />} />
+        <Route path="/DailySkills" element={<DailySkills />} />
       </Routes>
     </Router>
   );

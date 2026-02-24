@@ -23,9 +23,12 @@ function DailySkills () {
       </nav>
 
         <div className="skills-container">
-            <div className="skill"></div>
+            <div className="skill">
+                <p>Test</p>
+            </div>
         </div>
 
+        {/* last div */}
         </div>
 
     );

@@ -37,14 +37,14 @@ function Home() {
 <div className="columns">
   <div className="column">
     <h2>Daily Education</h2>
-    <a href="/TechSkills" className="btn">Explore</a>
+    <a href="/BasicSkills" className="btn">Explore</a>
   </div>
 
   <div className="divider"></div>
 
   <div className="column">
     <h2>Basic Skills</h2>
-    <a href="/SoftSkills" className="btn">Explore</a>
+    <a href="/DailySkills" className="btn">Explore</a>
   </div>
 </div>
 </section>
