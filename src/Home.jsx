@@ -27,11 +27,26 @@ function Home() {
       </nav>
 
       <section className="text">
-        <div className="intro-wrapper">
-          <h1 className="intro">Welcome to Soft Skills</h1>
-        </div>
+    <div className="intro-wrapper">
+        <h1 className="intro">Welcome to Soft Skills</h1>
+    </div>
+    
+
+    
+
+<div className="columns">
+  <div className="column">
+    <h2>Basic Skills</h2>
+    <a href="/BasicSkills" className="btn">Explore</a>
+  </div>
 
 
+  <div className="column">
+    <h2>Daily Education</h2>
+    <a href="/DailySkills" className="btn">Explore</a>
+  </div>
+</div>
+</section>
 
 
         <div className="columns">
