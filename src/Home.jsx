@@ -14,7 +14,7 @@ function Home() {
         </div>
 
         <div className="logo-wrapper">
-          <div className="logo"></div>
+          <div className="logo"><img src={"./sbs-logo.png"} /></div>
         </div>
         <div className="search-container">
           <input
