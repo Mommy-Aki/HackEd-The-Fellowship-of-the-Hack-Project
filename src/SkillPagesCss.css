@@ -1,0 +1,15 @@
+.page-container{
+    background-color: rgb(243, 233, 233);
+    height: 43rem;
+    width: 99.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.text-container{
+    background-color: #427AA1;
+    height: 30rem;
+    width: 30rem;
+    color: #EBF2FA;
+}
