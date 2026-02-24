@@ -1,8 +1,8 @@
 import React from "react";
-import "./App.css";
+import "./DailySkillsCss.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function SoftSkills () {
+function DailySkills () {
     return (
         <div>      <nav className="nav">
     <div className="title-wrapper">
@@ -22,9 +22,13 @@ function SoftSkills () {
         </div>
       </nav>
 
+        <div className="skills-container">
+            <div className="skill"></div>
+        </div>
+
         </div>
 
     );
 }
 
-export default SoftSkills;
+export default DailySkills;

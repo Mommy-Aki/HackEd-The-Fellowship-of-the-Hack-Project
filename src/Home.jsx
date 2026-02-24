@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import TechSkills from "./TechSkills";
-import SoftSkills from "./SoftSkills";
+import TechSkills from "./BasicSkills";
+import SoftSkills from "./DailySkills";
 
 function Home() {
   return (
