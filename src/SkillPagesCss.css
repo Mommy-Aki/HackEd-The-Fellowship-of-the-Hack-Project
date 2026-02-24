@@ -1,10 +1,10 @@
 .page-container{
     background-color: rgb(243, 233, 233);
-    height: 43rem;
-    width: 99.5rem;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: last baseline;
+    align-content: flex-end;
 }
 
 .text-container{
