@@ -125,14 +125,13 @@ body {
 }
 
 .about {
-  width: 100%;
   box-sizing: border-box;
+  width: 100%;
   background-color: #064789;
   color: white;
   padding: 35px 30px;
   margin-top: 80px;
   text-align: center;
-  height: 140px;
 }
 
 .paragraph-wrapper {
@@ -159,4 +158,30 @@ body {
 
 .block {
   display: block;
+}
+
+.MiniNav {
+  --primary: #064789;
+  --secondary: #427AA1;
+  --accent: EBF2FA;
+  align-content: center;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-color: var(--primary);
+  border-width: 1rem;
+  border-style: solid;
+  max-width: 25rem;
+  min-width: 10rem;
+  max-height: 4rem;
+
+  button {
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-width: 6rem;
+    max-width: 7rem;
+  }
 }
