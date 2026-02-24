@@ -9,17 +9,17 @@ function Home() {
     <div className="page">
 
       <nav className="nav">
-    <div className="title-wrapper">
-        <div className="title">SoftSkills</div>
-    </div>
+        <div className="title-wrapper">
+          <div className="title">SoftSkills</div>
+        </div>
 
-    <div className="logo-wrapper">
-        <div className="logo"></div>
-    </div>
-         <div className="search-container">
-          <input 
-            type="text" 
-            placeholder="Search..." 
+        <div className="logo-wrapper">
+          <div className="logo"></div>
+        </div>
+        <div className="search-container">
+          <input
+            type="text"
+            placeholder="Search..."
             className="search-input"
           />
           <button className="search-btn">Search</button>
@@ -27,57 +27,46 @@ function Home() {
       </nav>
 
       <section className="text">
-    <div className="intro-wrapper">
-        <h1 className="intro">Welcome to Soft Skills</h1>
-    </div>
-    
+        <div className="intro-wrapper">
+          <h1 className="intro">Welcome to Soft Skills</h1>
+        </div>
 
-    
 
-<div className="columns">
-  <div className="column">
-    <h2>Basic Skills</h2>
-    <a href="/BasicSkills" className="btn">Explore</a>
-  </div>
 
-  <div className="divider"></div>
 
-  <div className="column">
-    <h2>Daily Education</h2>
-    <a href="/DailySkills" className="btn">Explore</a>
-  </div>
-</div>
-</section>
+        <div className="columns">
+          <div className="column">
+            <h2>Basic Skills</h2>
+            <a href="/BasicSkills" className="btn">Explore</a>
+          </div>
 
-<div className="paragraph-wrapper">
-    <div className="paragraph">
-        Welcome to side by side learning space one built on the belief that education should be open, accessible, and free for everyone.
-        This platform was created to remove the limits that traditional systems often place on knowledge, giving people from all backgrounds the
-        opportunity to learn, grow, and discover without barriers. Here, information is not a privilege; it’s a shared resource shaped by curiosity,
-        community, and the desire to create a better future.
-        Whether you’re here to explore new subjects, strengthen existing skills, or simply follow your passion for 
-        learning, you’ll find a place designed to support your journey every step of the way. Together, we’re building a world where education is not restricted by cost, location, or circumstance—but powered by openness, inclusion, and the idea that everyone deserves the chance to thrive.
-    </div>
-</div>
+          <div className="divider"></div>
+
+          <div className="column">
+            <h2>Daily Education</h2>
+            <a href="/DailySkills" className="btn">Explore</a>
+          </div>
+        </div>
+      </section>
+
+      <div className="paragraph-wrapper">
+        <div className="paragraph">
+          Welcome to side by side learning space one built on the belief that education should be open, accessible, and free for everyone.
+          This platform was created to remove the limits that traditional systems often place on knowledge, giving people from all backgrounds the
+          opportunity to learn, grow, and discover without barriers. Here, information is not a privilege; it’s a shared resource shaped by curiosity,
+          community, and the desire to create a better future.
+          Whether you’re here to explore new subjects, strengthen existing skills, or simply follow your passion for
+          learning, you’ll find a place designed to support your journey every step of the way. Together, we’re building a world where education is not restricted by cost, location, or circumstance—but powered by openness, inclusion, and the idea that everyone deserves the chance to thrive.
+        </div>
+      </div>
 
       <section className="about">
         <h3>About Us</h3>
-        <p>
-          📍 Address:
-Northstar Creative Studio
-742 Evergreen Terrace, Suite 210
-Brookdale, CA 90210
-
-📞 Phone: (555) 827-3491
-
-📧 Email: hello@northstarcreativestudio.co
-
-🌐 Website: www.northstarcreativestudio.co
-
-🕒 Business Hours:
-Monday – Friday: 9:00 AM – 6:00 PM
-Saturday – Sunday: Closed
-        </p>
+        <p>📍 Address: Northstar Creative Studio 742 Evergreen Terrace, Suite 210 Brookdale, CA 90210</p>
+        <p>📞 Phone: (555) 827-3491</p>
+        <p>📧 Email: hello@northstarcreativestudio.co</p>
+        <p>🌐 Website: www.northstarcreativestudio.co</p>
+        <p>🕒 Business Hours: Monday – Friday: 9:00 AM – 6:00 PM Saturday – Sunday: Closed</p>
       </section>
     </div>
   );
