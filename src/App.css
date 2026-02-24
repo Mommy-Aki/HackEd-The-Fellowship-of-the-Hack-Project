@@ -126,12 +126,13 @@ body {
 
 .about {
   width: 100%;
-  text-align: center;
   box-sizing: border-box;
   background-color: #064789;
   color: white;
-  padding: 35px 20px;
+  padding: 35px 30px;
   margin-top: 80px;
+  text-align: center;
+  height: 140px;
 }
 
 .paragraph-wrapper {
@@ -148,4 +149,14 @@ body {
   font-size: 18px;
   line-height: 1.7;
   color: #064789;
+}
+
+.has-border {
+  border-color: #064789 !important;
+  border-width: .3rem !important;
+  border-style: solid !important;
+}
+
+.block {
+  display: block;
 }

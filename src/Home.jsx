@@ -27,38 +27,23 @@ function Home() {
       </nav>
 
       <section className="text">
-    <div className="intro-wrapper">
-        <h1 className="intro">Welcome to Soft Skills</h1>
-    </div>
-    
-
-    
-
-<div className="columns">
-  <div className="column">
-    <h2>Basic Skills</h2>
-    <a href="/BasicSkills" className="btn">Explore</a>
-  </div>
+        <div className="intro-wrapper">
+          <h1 className="intro">Welcome to Soft Skills</h1>
+        </div>
 
 
-  <div className="column">
-    <h2>Daily Education</h2>
-    <a href="/DailySkills" className="btn">Explore</a>
-  </div>
-</div>
-</section>
 
 
         <div className="columns">
           <div className="column">
-            <h2>Daily Education</h2>
+            <h2>Basic Skills</h2>
             <a href="/BasicSkills" className="btn">Explore</a>
           </div>
 
           <div className="divider"></div>
 
           <div className="column">
-            <h2>Basic Skills</h2>
+            <h2>Daily Education</h2>
             <a href="/DailySkills" className="btn">Explore</a>
           </div>
         </div>
@@ -77,11 +62,11 @@ function Home() {
 
       <section className="about">
         <h3>About Us</h3>
-        <p>📍 Address: Northstar Creative Studio, 742 Evergreen Terrace, Suite 210, Brookdale, CA 90210</p>
+        <p>📍 Address: Northstar Creative Studio 742 Evergreen Terrace, Suite 210 Brookdale, CA 90210</p>
         <p>📞 Phone: (555) 827-3491</p>
+        <p>📧 Email: hello@northstarcreativestudio.co</p>
         <p>🌐 Website: www.northstarcreativestudio.co</p>
-        <p>🕒 Business Hours: Monday – Friday: 9:00 AM – 6:00 PM</p>
-        <p>Saturday – Sunday: Closed</p>
+        <p>🕒 Business Hours: Monday – Friday: 9:00 AM – 6:00 PM Saturday – Sunday: Closed</p>
       </section>
     </div>
   );
