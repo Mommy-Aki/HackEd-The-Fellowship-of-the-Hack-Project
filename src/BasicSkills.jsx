@@ -1,4 +1,4 @@
-function Tech () {
+function BasicSkills () {
     return (
         <div>
         </div>
@@ -6,4 +6,4 @@ function Tech () {
     );
 }
 
-export default Tech;
+export default BasicSkills;
