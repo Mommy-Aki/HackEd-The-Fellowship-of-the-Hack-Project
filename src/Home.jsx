@@ -14,7 +14,7 @@ function Home() {
         </div>
 
         <div className="logo-wrapper">
-          <div className="logo"><img src={"./sbs-logo.png"} /></div>
+          <div className="logo"><img src={"./sbs-logo.png"} alt={"sbs logo"} /></div>
         </div>
         <div className="search-container">
           <input
@@ -30,9 +30,6 @@ function Home() {
         <div className="intro-wrapper">
           <h1 className="intro">Welcome to Soft Skills</h1>
         </div>
-
-
-
 
         <div className="columns">
           <div className="column">
